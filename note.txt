@@ -1,0 +1,20 @@
+Premitive / call by value
+
+string
+number
+bool
+null
+symbol
+undefined
+bigint
+
+non Premitive / reference type
+
+array
+objects
+functions
+
+
+Js dynamically typed language
+
+
