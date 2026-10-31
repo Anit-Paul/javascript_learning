@@ -12,3 +12,6 @@ You cannot reassign its value after initialization.
 */
 
 const a=10;
+
+console.log(typeof null); // object
+console.log(typeof undefined); // undefined
