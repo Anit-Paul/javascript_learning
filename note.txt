@@ -17,4 +17,7 @@ functions
 
 Js dynamically typed language
 
+stack memory -> Premitive
+heap memory -> non Premitive
+
 
