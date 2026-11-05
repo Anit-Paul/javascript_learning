@@ -8,7 +8,7 @@ function changeBackgroundColor(color){
 }
 
 btn.forEach((button)=>{
-    button.addEventListener("click",()=>{
-        changeBackgroundColor(button.id);
+    button.addEventListener("click",(e)=>{
+        changeBackgroundColor(e.target.id);
     });
 })
