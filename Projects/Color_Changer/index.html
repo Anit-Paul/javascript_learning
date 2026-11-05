@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color Changer</title>
+    <style>
+        .parent{
+            height:80%;
+            width:80%;
+            display: flex;
+            flex-direction: row;
+        }
+        .item{
+            height: 50px;
+            width: 50px;
+            margin: 5px;
+        }
+        #grey{
+            background-color:gray;
+        }
+        #yellow{
+            background-color:yellow;
+        }
+        #blue{
+            background-color:blue;
+        }
+        #green{
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+    <p>color Scheme Switcher</p>
+    <div class="parent">
+        <button class="item" id="grey"></button>
+        <button class="item" id="green"></button>
+        <button class="item" id="blue"></button>
+        <button class="item" id="yellow"></button>
+    </div>
+    <p>
+        try clicking on the colors to change the background color
+    </p>
+</body>
+<script src="index.js"></script>
+</html>
