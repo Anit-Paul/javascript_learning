@@ -13,7 +13,7 @@ to stop bubling we can use stop propagation and to prevent default behaviour we 
 function removeElement(item){
     const parent=item.parentNode;
     parent.removeChild(item);
-    console.log(parent)
+    console.log(parent.tagName)
 }
 
 
