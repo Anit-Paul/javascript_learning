@@ -4,7 +4,7 @@ async function get_joke(){
     return json.data.content;
 }
 
-get_joke()
+/*get_joke()
 .then((response)=>{
     console.log(response)
 })
@@ -13,4 +13,13 @@ get_joke()
 })
 .finally(()=>{
     console.log("promise resolved")
-});
+});*/
+
+
+
+(
+    async ()=>{
+        content=await get_joke();
+        console.log(content)
+    }
+)();
