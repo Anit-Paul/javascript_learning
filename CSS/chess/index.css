@@ -1,0 +1,18 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+    height:200px;
+    width:200px;
+    display: grid;
+    grid-template-rows: repeat(8,1fr) ;
+    grid-template-columns: repeat(8,1fr);
+    background-color: black;
+    border: 2px solid black
+}
