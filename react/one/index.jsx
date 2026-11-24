@@ -1,4 +1,5 @@
-
+import React from "react";
+import ReactDOM from "react-dom/client"
 /*const element = React.createElement(
     "h1",
     { id: "heading" },
@@ -26,6 +27,7 @@ function App(name){
 //when we pass something in the function it will be accepted as object. It is called props.
 
 function NewComponent(props){
+    console.log(props)
     return (
         <>
             <App name="anit"/>
@@ -39,5 +41,6 @@ const root = ReactDOM.createRoot(
     document.getElementById("root")
 );
 
+console.log(root)
 //root.render(App("anit")); //<App/> by this we can also call it
 root.render(<NewComponent name="anit" age={22} />)
